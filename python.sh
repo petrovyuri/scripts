@@ -18,3 +18,6 @@ python manage.py migrate
 
 # Создание супер пользователя в Django
 python manage.py createsuperuser
+
+# Создание приложения
+python manage.py startapp users
