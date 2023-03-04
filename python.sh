@@ -2,7 +2,7 @@
 python manage.py runserver
 
 # Сгенерировать новый requirements.txt
-pipenv freeze > requirements.txt
+pip freeze > requirements.txt
 
 # Создать новый проект
 django-admin startproject auth_api .
